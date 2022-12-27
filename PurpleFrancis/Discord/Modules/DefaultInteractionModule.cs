@@ -22,7 +22,7 @@ public class DefaultInteractionModule : InteractionModuleBase<SocketInteractionC
         _settings = settings?.Value ?? throw new ArgumentNullException(nameof(settings));
     }
 
-    [SlashCommand("history", "Gets the link to Purple Francis's backstory, along with a quote.")]
+    [SlashCommand("backstory", "Gets a link to Purple Francis's competely true backstory.")]
     public async Task HistoryAsync()
     {
         IEmote? emote = null;
@@ -41,7 +41,7 @@ public class DefaultInteractionModule : InteractionModuleBase<SocketInteractionC
         await RespondAsync(quote, components: builder.Build());
     }
 
-    [SlashCommand("quote", "Gets a quote from Purple Francis.")]
+    [SlashCommand("speak", "Purple Francis speaks!")]
     public async Task QuoteAsync()
     {
         var quote = RandomHelper.PickSecureRandom(_settings.QuotesMarkdown);
