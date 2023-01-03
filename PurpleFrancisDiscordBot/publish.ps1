@@ -3,14 +3,14 @@
 $Runtime = 'win-x64'
 $Framework = 'net7.0'
 $Configuration = 'Release'
-$ServiceName = "PurpleFrancis"
+$ServiceName = "PurpleFrancisDiscordBot"
 $ServiceDescription = "Purple Francis bot service"
 
 $DeployDir = "dist"
-$ExeName = "PurpleFrancis.exe"
+$ExeName = "PurpleFrancisDiscordBot.exe"
 
 $TestProjectDirs = @(
-    Join-Path ".." "PurpleFrancis.Tests.Unit"
+    Join-Path ".." "PurpleFrancisDiscordBot.Tests.Unit"
 )
 
 

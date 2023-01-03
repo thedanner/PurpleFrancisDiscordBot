@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace PurpleFrancis.Services;
+namespace PurpleFrancisDiscordBot.Services;
 
 public interface IDiscordConnectionBootstrapper
 {

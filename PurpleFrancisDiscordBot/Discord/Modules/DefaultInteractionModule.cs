@@ -3,13 +3,12 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
-using PurpleFrancis.Models.Configuration;
-using PurpleFrancis.Helpers.Extensions;
+using PurpleFrancisDiscordBot.Models.Configuration;
+using PurpleFrancisDiscordBot.Helpers.Extensions;
 using Discord;
 using System.Globalization;
-using Discord.Rest;
 
-namespace PurpleFrancis.Discord.Modules;
+namespace PurpleFrancisDiscordBot.Discord.Modules;
 
 public class DefaultInteractionModule : InteractionModuleBase<SocketInteractionContext>
 {

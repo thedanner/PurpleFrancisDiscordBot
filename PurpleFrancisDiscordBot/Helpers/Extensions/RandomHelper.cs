@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Security.Cryptography;
 
-namespace PurpleFrancis.Helpers.Extensions;
+namespace PurpleFrancisDiscordBot.Helpers.Extensions;
 
 public static class RandomHelper
 {

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <IsPackable>false</IsPackable>
-    <RootNamespace>PurpleFrancis.Tests.Integration</RootNamespace>
+    <RootNamespace>PurpleFrancisDiscordBot.Tests.Integration</RootNamespace>
     <OutputType>Exe</OutputType>
   </PropertyGroup>
 
@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PurpleFrancis\PurpleFrancis.csproj" />
+    <ProjectReference Include="..\PurpleFrancisDiscordBot\PurpleFrancisDiscordBot.csproj" />
   </ItemGroup>
 
   <ItemGroup>

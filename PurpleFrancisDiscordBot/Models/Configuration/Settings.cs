@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PurpleFrancis.Models.Configuration;
+namespace PurpleFrancisDiscordBot.Models.Configuration;
 
 public class Settings
 {

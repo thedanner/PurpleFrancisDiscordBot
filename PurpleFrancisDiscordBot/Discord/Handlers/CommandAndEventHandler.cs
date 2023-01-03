@@ -2,11 +2,11 @@
 using Discord.Interactions;
 using Discord.WebSocket;
 using Microsoft.Extensions.Logging;
-using PurpleFrancis.Discord.Modules;
+using PurpleFrancisDiscordBot.Discord.Modules;
 using System;
 using System.Threading.Tasks;
 
-namespace PurpleFrancis.Discord.Handlers;
+namespace PurpleFrancisDiscordBot.Discord.Handlers;
 
 public class CommandAndEventHandler : IDisposable
 {

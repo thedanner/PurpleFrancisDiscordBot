@@ -1,7 +1,7 @@
 ﻿using Discord;
 using Microsoft.Extensions.Logging;
 
-namespace PurpleFrancis.Helpers.Extensions;
+namespace PurpleFrancisDiscordBot.Helpers.Extensions;
 
 public static class LoggingExtensions
 {

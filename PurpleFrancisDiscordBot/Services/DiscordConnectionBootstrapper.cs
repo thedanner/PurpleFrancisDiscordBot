@@ -3,13 +3,13 @@ using Discord.Interactions;
 using Discord.WebSocket;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using PurpleFrancis.Models.Configuration;
-using PurpleFrancis.Helpers.Extensions;
+using PurpleFrancisDiscordBot.Models.Configuration;
+using PurpleFrancisDiscordBot.Helpers.Extensions;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace PurpleFrancis.Services;
+namespace PurpleFrancisDiscordBot.Services;
 
 public class DiscordConnectionBootstrapper : IDiscordConnectionBootstrapper
 {
@@ -80,7 +80,7 @@ public class DiscordConnectionBootstrapper : IDiscordConnectionBootstrapper
 #pragma warning restore CS1998 // Async method lacks 'await' operators and will run synchronously
 
         await client.SetStatusAsync(UserStatus.Online);
-        await client.SetGameAsync("Left 4 Dead 4ever", type: ActivityType.Playing);
+        await client.SetGameAsync("Left 4 Dead with Francis", type: ActivityType.Playing);
     }
 
     private Task ReadyHandlerWithSignalAsync(TaskCompletionSource<bool> readyComplete)

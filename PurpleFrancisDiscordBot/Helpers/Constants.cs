@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PurpleFrancis.Helpers;
+namespace PurpleFrancisDiscordBot.Helpers;
 
 public static class Constants
 {

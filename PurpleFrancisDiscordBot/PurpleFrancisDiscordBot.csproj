@@ -7,19 +7,13 @@
     <Nullable>enable</Nullable>
     <WarningsAsErrors>CS8600;CS8602;CS8603</WarningsAsErrors>
 	<IsPackable>true</IsPackable>
-    <RootNamespace>PurpleFrancis</RootNamespace>
-    <AssemblyName>PurpleFrancis</AssemblyName>
+    <RootNamespace>PurpleFrancisDiscordBot</RootNamespace>
+    <AssemblyName>PurpleFrancisDiscordBot</AssemblyName>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>  
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="TeamSuggestions\**" />
-    <EmbeddedResource Remove="TeamSuggestions\**" />
-    <None Remove="TeamSuggestions\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <InternalsVisibleTo Include="PurpleFrancis.Tests.Unit" />
+    <InternalsVisibleTo Include="PurpleFrancisDiscordBot.Tests.Unit" />
   </ItemGroup>
 
   <ItemGroup>

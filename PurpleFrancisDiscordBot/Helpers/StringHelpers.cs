@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace PurpleFrancis.Helpers;
+namespace PurpleFrancisDiscordBot.Helpers;
 
 public static class StringHelpers
 {

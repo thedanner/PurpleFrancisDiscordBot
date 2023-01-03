@@ -2,9 +2,9 @@ using Discord;
 using Discord.Commands;
 using Discord.Interactions;
 using Discord.WebSocket;
-using PurpleFrancis.Discord.Handlers;
-using PurpleFrancis.Models.Configuration;
-using PurpleFrancis.Services;
+using PurpleFrancisDiscordBot.Discord.Handlers;
+using PurpleFrancisDiscordBot.Models.Configuration;
+using PurpleFrancisDiscordBot.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -17,7 +17,7 @@ using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-namespace PurpleFrancis;
+namespace PurpleFrancisDiscordBot;
 
 public class Program
 {

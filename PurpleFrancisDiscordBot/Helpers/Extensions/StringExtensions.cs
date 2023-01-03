@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PurpleFrancis.Helpers.Extensions;
+namespace PurpleFrancisDiscordBot.Helpers.Extensions;
 
 public static class StringExtensions
 {

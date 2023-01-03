@@ -4,8 +4,8 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
 	<IsPackable>false</IsPackable>
-    <RootNamespace>PurpleFrancis.Tests.Unit</RootNamespace>
-    <AssemblyName>PurpleFrancis.Tests.Unit</AssemblyName>
+    <RootNamespace>PurpleFrancisDiscordBot.Tests.Unit</RootNamespace>
+    <AssemblyName>PurpleFrancisDiscordBot.Tests.Unit</AssemblyName>
     <ApplicationIcon />
     <StartupObject />
   </PropertyGroup>
@@ -42,7 +42,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PurpleFrancis\PurpleFrancis.csproj" />
+    <ProjectReference Include="..\PurpleFrancisDiscordBot\PurpleFrancisDiscordBot.csproj" />
   </ItemGroup>
 
 </Project>

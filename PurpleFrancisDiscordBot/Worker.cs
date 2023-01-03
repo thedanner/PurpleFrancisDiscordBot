@@ -1,18 +1,15 @@
 ﻿using Discord;
 using Discord.WebSocket;
-using PurpleFrancis.Discord.Handlers;
+using PurpleFrancisDiscordBot.Discord.Handlers;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using PurpleFrancis.Services;
+using PurpleFrancisDiscordBot.Services;
 
-namespace PurpleFrancis;
+namespace PurpleFrancisDiscordBot;
 
 public class Worker : BackgroundService, IDisposable
 {
